@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="line"> </div>
+    <div class="container">
+        <header class="topo">
+            <div class="logo">
+                <img src="logo2.jpeg" alt="logo" width="100" height="100">
+                <h2 class="nome-empresa">Segurytek - <br> Segurança Eletrônica</h2>
+            </div>
+            <div class="menu">
+                <div class="cabecalho-menu">
+                        <img src="menu.png">
+                </div>
+                             <ul class="menu1">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="detalhes.html">Detalhes</a></li>
+                    <li><a href="autor.html">Autora</a></li>
+                    <li><a href="administrador.html">Administrador</a>
+                        <ul class="submenu">
+                            <a href="administrador.html">Cadastro de Usuário</a>
+                            <a href="administrador.html">Cadastro de Produtos</a>
+                            
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </div>
+</header>
+ 
+        <main>
+            <form class="cadastro-de-usuario">
+            <p><b>cadastro de usuário</b></p>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="birthdate">Data de nascimento</label>
+            <input type="date" id="birthdate" name="birthdate"><br>
+
+            <input type="submit" value="Enviar"
+            </form>
+
+
+            <hr>
+<div class="table">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>    Telefone</th>
+                    <th>Data de nascimento</th>
+                    <th>Editar</th>
+                    <th>Apagar</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Ana Lima</td>
+                    <td>analima@exemplo.com</td>
+                    <td>(85) 11111-1111</td>
+                    <td>12/12/1968</td>
+                    <td><button class="edit-btn">Editar</button></td>
+                    <td><button class="delete-btn">Apagar</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>José Castro</td>
+                    <td>jcastro@exemplo.com</td>
+                    <td>(85) 11111-2222</td>
+                    <td>06/06/1963</td>
+                    <td><button class="edit-btn">Editar</button></td>
+                    <td><button class="delete-btn">Apagar</button></td>
+                </tr>
+
+            </table>
+        </div>  
+                </main>
+                <br>
+                <br>
+                <br>
+        <footer style="background-color: #187cd9;">
+            <p><b>Seguritek - Segurança Eletrônica</b></p>
+            <p> Audenira Castro</p>
+            <a href="autor.html"> Sobre o autor</a>
+        </footer>
+
+      </body>
+
+</html>
